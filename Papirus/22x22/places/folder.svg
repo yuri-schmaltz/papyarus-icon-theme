@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
-  <image width="44" height="44" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAJ9QTFRFAAAAOapVAAAANqFRMJ9ML5pRAAAAAAAANZ9SNZxQNKFPNp9ROYtQO4xRNZ9RNKBRMp9QNaBRLJxLLJtJMZ5PNZ9STbxtT71tTr1sL51NM59QHIU4HY08Ho89H5U/IJVAIZZBIpZBJoc/J5lGKppILI9GMZ1OMp5QNZ5SNZ9SOKFVOKJVR6VgTr5tUMFve7qMfLqNs9i92d/a4+Tj5OTk01wOwwAAABt0Uk5TAAkPEyUmLTM1Q1RocHGIodrm5+3t7e3t7vj5sVAKEwAAAKBJREFUOMvt1ckOgjAUQFFExVmcUSmlolUcQIX+/7dpamJVmsdzSdK7PvtrWZWsOz6q5m4dxBNGVeF21ITwp322mXUATH9iq2G7UaimxzTc7Q+F1j091jf9BzOF4wtQLMkb33IBlF+/cCbAMoUDQkRJhAQv7Eec30viPPIlPqeoThInOJxInCIz2GCD0XiJswuJBx7Gen2JbaeFyLGrOcEHXMHgWUS4LzIAAAAASUVORK5CYII="/>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16">
+  <path fill="#4877b1" d="M1 4V3c0-.552.448-1 1-1h3.25c.276 0 .54.111.734.309L7.07 4H14c.552 0 1 .448 1 1v2H1Z"/>
+  <path fill="#5294e2" d="M1 6h14v7c0 .552-.448 1-1 1H2c-.552 0-1-.448-1-1Z"/>
+  <path fill="#ffffff" fill-opacity=".2" d="M1 6h14v1H1Z"/>
+  <path fill="#000000" fill-opacity=".15" d="M1 12h14v1H1Z"/>
 </svg>
