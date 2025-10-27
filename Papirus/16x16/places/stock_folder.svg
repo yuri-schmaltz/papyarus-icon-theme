@@ -1,1 +1,3 @@
-folder.svg
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <image width="32" height="32" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAADxQTFRFAAAAAP8AVapVVcZxUMJxUcBvUMBwUcFwUMJwUMFvUcJvUcFvUMFvUMFvUMFvUMFvUMFvUMFvUMFvUMFvb/h7xwAAABN0Uk5TAAEDCTZVWVuJnJ6xvejr7O/w+tcDv3UAAABKSURBVDhPY2AYFICdVxgOOBixKBAURgKcTJgKhFEANzMBBcI8rHDAwohNATLgIqRAiJAC4VEFI08BP255AbACNj5c8rxsDIMCAABQPi2u/kYfAAAAAABJRU5ErkJggg=="/>
+</svg>
