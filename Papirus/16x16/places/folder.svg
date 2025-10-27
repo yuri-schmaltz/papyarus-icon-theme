@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-  <image width="32" height="32" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAADxQTFRFAAAAAP8AVapVVcZxUMJxUcBvUMBwUcFwUMJwUMFvUcJvUcFvUMFvUMFvUMFvUMFvUMFvUMFvUMFvUMFvb/h7xwAAABN0Uk5TAAEDCTZVWVuJnJ6xvejr7O/w+tcDv3UAAABKSURBVDhPY2AYFICdVxgOOBixKBAURgKcTJgKhFEANzMBBcI8rHDAwohNATLgIqRAiJAC4VEFI08BP255AbACNj5c8rxsDIMCAABQPi2u/kYfAAAAAABJRU5ErkJggg=="/>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path fill="#4877b1" d="M1 4V3c0-.552.448-1 1-1h3.25c.276 0 .54.111.734.309L7.07 4H14c.552 0 1 .448 1 1v2H1Z"/>
+  <path fill="#5294e2" d="M1 6h14v7c0 .552-.448 1-1 1H2c-.552 0-1-.448-1-1Z"/>
+  <path fill="#ffffff" fill-opacity=".2" d="M1 6h14v1H1Z"/>
+  <path fill="#000000" fill-opacity=".15" d="M1 12h14v1H1Z"/>
 </svg>
