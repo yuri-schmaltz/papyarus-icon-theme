@@ -31,7 +31,7 @@
 set -eo pipefail
 
 SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
-TARGET_DIR="$SCRIPT_DIR/../Papirus"
+TARGET_DIR="$SCRIPT_DIR/../Papyarus"
 
 DEFAULT_COLOR="blue"
 SIZES_REGEX="(16x16|22x22|24x24|32x32|48x48|64x64)"
@@ -162,7 +162,7 @@ headline "PHASE 4: Create symlinks for Folder Color v0.0.80 and newer ..."
 # -----------------------------------------------------------------------------
 # Icons mapping
 FOLDER_COLOR_MAP=(
-	# Folder Color icon         | Papirus icon
+	# Folder Color icon         | Papyarus icon
 	# --------------------------|---------------------------
 	"folder-COLOR-desktop.svg    user-COLOR-desktop.svg"
 	"folder-COLOR-downloads.svg  folder-COLOR-download.svg"
@@ -194,7 +194,7 @@ headline "PHASE 5: Copy color folder icons to derivative themes ..."
 COLOR_NAMES="${!COLORS[*]}"  # get a string of colors
 COLOR_REGEX="(${COLOR_NAMES// /|})"  # convert the list of colors to regex
 DERIVATIVES=(
-	Papirus-Dark
+	Papyarus-Dark
 )  # array of derivative icon themes with 16x16 places
 
 find "$TARGET_DIR" -regextype posix-extended \
@@ -202,6 +202,6 @@ find "$TARGET_DIR" -regextype posix-extended \
 	-print0 | while read -r -d $'\0' file; do
 
 	for d in "${DERIVATIVES[@]}"; do
-		cp -P --remove-destination "$file" "${file/Papirus/$d}"
+		cp -P --remove-destination "$file" "${file/Papyarus/$d}"
 	done
 done

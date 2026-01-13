@@ -1,12 +1,12 @@
 # For Developers and Designers
 
-Designing icons for Papirus is easy :)
+Designing icons for Papyarus is easy :)
 
-You only need to draw icons for Papirus and then convert colors for Papirus Dark and Papirus-Light using our scripts.
+You only need to draw icons for Papyarus and then convert colors for Papyarus Dark and Papyarus-Light using our scripts.
 
-## How to draw icons for Papirus
+## How to draw icons for Papyarus
 
-See the separate [Design Notes](DESIGN.md) document, and the [Papirus wiki](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki).
+See the separate [Design Notes](DESIGN.md) document, and the [Papyarus wiki](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/wiki).
 
 ## System Requirements
 
@@ -40,12 +40,12 @@ You can create a new icon from the provided template using the `new-icon.sh` scr
 ```shell-session
 $ cd tools/work
 $ ./new-icon.sh apps abricotine
-'./Papirus/apps/_TEMPLATE@16x16.SVG' -> './Papirus/apps/abricotine@16x16.svg'
-'./Papirus/apps/_TEMPLATE@22x22.SVG' -> './Papirus/apps/abricotine@22x22.svg'
-'./Papirus/apps/_TEMPLATE@24x24.SVG' -> './Papirus/apps/abricotine@24x24.svg'
-'./Papirus/apps/_TEMPLATE@32x32.SVG' -> './Papirus/apps/abricotine@32x32.svg'
-'./Papirus/apps/_TEMPLATE@48x48.SVG' -> './Papirus/apps/abricotine@48x48.svg'
-'./Papirus/apps/_TEMPLATE@64x64.SVG' -> './Papirus/apps/abricotine@64x64.svg'
+'./Papyarus/apps/_TEMPLATE@16x16.SVG' -> './Papyarus/apps/abricotine@16x16.svg'
+'./Papyarus/apps/_TEMPLATE@22x22.SVG' -> './Papyarus/apps/abricotine@22x22.svg'
+'./Papyarus/apps/_TEMPLATE@24x24.SVG' -> './Papyarus/apps/abricotine@24x24.svg'
+'./Papyarus/apps/_TEMPLATE@32x32.SVG' -> './Papyarus/apps/abricotine@32x32.svg'
+'./Papyarus/apps/_TEMPLATE@48x48.SVG' -> './Papyarus/apps/abricotine@48x48.svg'
+'./Papyarus/apps/_TEMPLATE@64x64.SVG' -> './Papyarus/apps/abricotine@64x64.svg'
 ```
 
 This command has created six new working files inside the work directory from the template files. For all new icons, **please stick to using the template**. It is necessary because the template already has some needed objects, like a CSS stylesheet.
@@ -57,39 +57,39 @@ If you want to modify an existing icon, you can do that using the `get-from-them
 ```shell-session
 $ cd tools/work
 $ ./get-from-theme.sh panel transmission-panel.svg
-'./../../Papirus/24x24/panel/transmission-panel.svg' -> './Papirus/panel/transmission-panel@24x24.svg'
-'./../../Papirus/16x16/panel/transmission-panel.svg' -> './Papirus/panel/transmission-panel@16x16.svg'
-'./../../Papirus/22x22/panel/transmission-panel.svg' -> './Papirus/panel/transmission-panel@22x22.svg'
+'./../../Papyarus/24x24/panel/transmission-panel.svg' -> './Papyarus/panel/transmission-panel@24x24.svg'
+'./../../Papyarus/16x16/panel/transmission-panel.svg' -> './Papyarus/panel/transmission-panel@16x16.svg'
+'./../../Papyarus/22x22/panel/transmission-panel.svg' -> './Papyarus/panel/transmission-panel@22x22.svg'
 .svg
 ```
 
 #### 1c. How to make symlinks to an existing icon
 
-This is an example of how you might fix issue  [#354](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/354). First, make sure there's an existing icon you can link to:
+This is an example of how you might fix issue  [#354](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/issues/354). First, make sure there's an existing icon you can link to:
 
 ```shell-session
 $ cd tools/work
-$ find ../../Papirus -type f -iname '*ardour*' -print
-./Papirus/16x16/apps/ardour.svg
-./Papirus/22x22/apps/ardour.svg
-./Papirus/24x24/apps/ardour.svg
-./Papirus/32x32/apps/ardour.svg
-./Papirus/48x48/apps/ardour.svg
-./Papirus/64x64/apps/ardour.svg
+$ find ../../Papyarus -type f -iname '*ardour*' -print
+./Papyarus/16x16/apps/ardour.svg
+./Papyarus/22x22/apps/ardour.svg
+./Papyarus/24x24/apps/ardour.svg
+./Papyarus/32x32/apps/ardour.svg
+./Papyarus/48x48/apps/ardour.svg
+./Papyarus/64x64/apps/ardour.svg
 ```
 
-Now you have the filename of an existing icon, `ardour.svg`, and the name of the new symlink from [#354](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/354), `ardour5`. Create the symlinks with the command:
+Now you have the filename of an existing icon, `ardour.svg`, and the name of the new symlink from [#354](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/issues/354), `ardour5`. Create the symlinks with the command:
 
 ```shell-session
 $ cd tools/work
 $ ./new-symlink.sh --help   # this shows usage
 $ ./new-symlink.sh apps ardour.svg ardour5
-'./Papirus/apps/ardour5@16x16.svg' -> 'ardour.svg'
-'./Papirus/apps/ardour5@22x22.svg' -> 'ardour.svg'
-'./Papirus/apps/ardour5@24x24.svg' -> 'ardour.svg'
-'./Papirus/apps/ardour5@32x32.svg' -> 'ardour.svg'
-'./Papirus/apps/ardour5@48x48.svg' -> 'ardour.svg'
-'./Papirus/apps/ardour5@64x64.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@16x16.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@22x22.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@24x24.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@32x32.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@48x48.svg' -> 'ardour.svg'
+'./Papyarus/apps/ardour5@64x64.svg' -> 'ardour.svg'
 ```
 
 **NOTE:** Symlinks will look like they're broken, but that's OK.
@@ -98,9 +98,9 @@ If your symlinks are in `apps`, `emblems` or `mimetypes` you can continue from s
 
 **IMPORTANT:** Please don't remove suffixes from the filename, as it's needed for other scripts. Filename extension must be in lowercase.
 
-### 2. Papirus
+### 2. Papyarus
 
-**IMPORTANT:** You should draw icons for the core Papirus theme first.
+**IMPORTANT:** You should draw icons for the core Papyarus theme first.
 
 1. Open the created/copied file in Inkscape.
 2. Delete any objects you do not need.
@@ -108,9 +108,9 @@ If your symlinks are in `apps`, `emblems` or `mimetypes` you can continue from s
 4. Save the file with the same filename.
 5. Repeat it for other sizes.
 
-### 3. Papirus Dark and Papirus Light
+### 3. Papyarus Dark and Papyarus Light
 
-1. Run `convert.sh`. It copies needed icons from `work/Papirus` to `work/Papirus-Dark`, and `work/Papirus-Light`. It then updates the copies' color schemes.
+1. Run `convert.sh`. It copies needed icons from `work/Papyarus` to `work/Papyarus-Dark`, and `work/Papyarus-Light`. It then updates the copies' color schemes.
 
     ```shell-session
     $ cd tools/work

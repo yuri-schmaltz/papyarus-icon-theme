@@ -1,31 +1,45 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/preview.png" alt="preview"/>
+  <img src="https://raw.githubusercontent.com/PapyarusDevelopmentTeam/papirus-icon-theme/master/preview.png" alt="preview"/>
 </p>
 
 <p align="center">
-  <img alt="apps" src="https://img.shields.io/github/directory-file-count/PapirusDevelopmentTeam/papirus-icon-theme/Papirus%2F48x48%2Fapps?label=apps%20icons&style=flat-square&colorB=5294e2"/>
-  <img alt="actions" src="https://img.shields.io/github/directory-file-count/PapirusDevelopmentTeam/papirus-icon-theme/Papirus%2F22x22%2Factions?label=actions%20icons&style=flat-square&colorB=5294e2"/>
-  <img alt="panel" src="https://img.shields.io/github/directory-file-count/PapirusDevelopmentTeam/papirus-icon-theme/Papirus%2F22x22%2Fpanel?label=panel%20icons&style=flat-square&colorB=5294e2"/>
-  <img alt="places" src="https://img.shields.io/github/directory-file-count/PapirusDevelopmentTeam/papirus-icon-theme/Papirus%2F48x48%2Fplaces?label=places%20icons&style=flat-square&colorB=5294e2"/>
-  <img alt="mimetypes" src="https://img.shields.io/github/directory-file-count/PapirusDevelopmentTeam/papirus-icon-theme/Papirus%2F48x48%2Fmimetypes?label=mimetypes%20icons&style=flat-square&colorB=5294e2"/>
+  <img alt="apps" src="https://img.shields.io/github/directory-file-count/PapyarusDevelopmentTeam/papirus-icon-theme/Papyarus%2F48x48%2Fapps?label=apps%20icons&style=flat-square&colorB=5294e2"/>
+  <img alt="actions" src="https://img.shields.io/github/directory-file-count/PapyarusDevelopmentTeam/papirus-icon-theme/Papyarus%2F22x22%2Factions?label=actions%20icons&style=flat-square&colorB=5294e2"/>
+  <img alt="panel" src="https://img.shields.io/github/directory-file-count/PapyarusDevelopmentTeam/papirus-icon-theme/Papyarus%2F22x22%2Fpanel?label=panel%20icons&style=flat-square&colorB=5294e2"/>
+  <img alt="places" src="https://img.shields.io/github/directory-file-count/PapyarusDevelopmentTeam/papirus-icon-theme/Papyarus%2F48x48%2Fplaces?label=places%20icons&style=flat-square&colorB=5294e2"/>
+  <img alt="mimetypes" src="https://img.shields.io/github/directory-file-count/PapyarusDevelopmentTeam/papirus-icon-theme/Papyarus%2F48x48%2Fmimetypes?label=mimetypes%20icons&style=flat-square&colorB=5294e2"/>
 </p>
 
-Papirus is a free and open source SVG icon theme for Linux, based on [Paper Icon Set](https://github.com/snwh/paper-icon-theme) with a lot of new icons and a few extras, like [Hardcode-Tray support](#hardcoded-tray-icons), [KDE colorscheme support](#kde-colorscheme), [Folder Color support](#folders-color), and [a few others](#extras).
+# Papyarus Icon Theme
 
-Android version available [here](https://github.com/PapirusDevelopmentTeam/papirus_icons).
+Papyarus is a free and open-source SVG icon theme for Linux, based on **Papirus** with **Yaru** folder icons.
 
-Papirus icon theme is available in five variants:
+## Installation
 
- - Papirus (base variant)
- - Papirus Dark (for dark themes)
- - Papirus Light (for light themes)
+### Local Installation (Recommended)
+
+To install the theme from this repository:
+
+```bash
+chmod +x install-local.sh
+./install-local.sh
+```
+
+By default it installs to `~/.local/share/icons`. To install system-wide:
+
+```bash
+sudo ./install-local.sh /usr/share/icons
+```
+ - Papyarus (base variant)
+ - Papyarus Dark (for dark themes)
+ - Papyarus Light (for light themes)
 
 ## Contents
 
  - [Installation](#installation)
     - [Ubuntu and derivatives](#ubuntu-and-derivatives)
     - [Debian and derivatives](#debian-and-derivatives)
-    - [Papirus Installer](#papirus-installer)
+    - [Papyarus Installer](#papirus-installer)
     - [Snap](#snap)
     - [Third-party packages](#third-party-packages)
  - [Hardcoded icons](#hardcoded-icons)
@@ -46,12 +60,12 @@ Papirus icon theme is available in five variants:
 
 ### Ubuntu and derivatives
 
-You can install Papirus from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
+You can install Papyarus from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
 
 ```sh
 sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
-sudo apt-get install papirus-icon-theme  # Papirus, Papirus-Dark, and Papirus-Light
+sudo apt-get install papirus-icon-theme  # Papyarus, Papyarus-Dark, and Papyarus-Light
 ```
 
 or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=papirus-icon-theme).
@@ -61,7 +75,7 @@ or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ub
 
 ### Debian and derivatives
 
-Debian users can also install Papirus from our [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus), but the command line instructions differ:
+Debian users can also install Papyarus from our [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus), but the command line instructions differ:
 
 ```sh
 sudo sh -c "echo 'deb http://ppa.launchpad.net/papirus/papirus/ubuntu jammy main' > /etc/apt/sources.list.d/papirus-ppa.list"
@@ -70,16 +84,16 @@ sudo apt-get update
 sudo apt-get install papirus-icon-theme
 ```
 
-### Papirus Installer
+### Papyarus Installer
 
 Use the script to install the latest version directly from the master branch of this repo (this method does not depend on your distribution).
 
 Find the install script [here](install.sh) or proceed with command-line instructions below.
 
-You can set environment variables to control WHERE, WHAT, and FROM WHERE you install Papirus:
+You can set environment variables to control WHERE, WHAT, and FROM WHERE you install Papyarus:
 
 - `DESTDIR` - the destination directory for installing icon themes (Defaults to `DESTDIR=/usr/share/icons`)
-- `EXTRA_THEMES` - additional icon themes that you want to install alongside the base Papirus icon theme (Defaults to `EXTRA_THEMES="Papirus-Dark Papirus-Light"`)
+- `EXTRA_THEMES` - additional icon themes that you want to install alongside the base Papyarus icon theme (Defaults to `EXTRA_THEMES="Papyarus-Dark Papyarus-Light"`)
 - `TAG` - a branch or tag if you want to install a specific version of the icon theme (Defaults to `TAG=master`)
 
 > [!IMPORTANT]
@@ -111,7 +125,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | env DESTDIR="/usr/local/sh
 
 #### Uninstall
 
-Use [this](uninstall.sh) interactive script to completely remove Papirus icon theme from your system.
+Use [this](uninstall.sh) interactive script to completely remove Papyarus icon theme from your system.
 
 ```
 wget -qO- https://git.io/papirus-icon-theme-uninstall | sh
@@ -157,25 +171,25 @@ Some software uses an absolute path instead of an icon name in a .desktop file o
 
 ### Hardcoded application icons
 
-To deal with hardcoded application icons we recommend using [hardcode-fixer](https://github.com/Foggalong/hardcode-fixer). Papirus supports most of the applications in the [list](https://github.com/Foggalong/hardcode-fixer/blob/master/tofix.csv). If hardcode-fixer doesn't support your favorite app yet, please open an issue [here](https://github.com/Foggalong/hardcode-fixer/issues) or edit your .desktop file manually.
+To deal with hardcoded application icons we recommend using [hardcode-fixer](https://github.com/Foggalong/hardcode-fixer). Papyarus supports most of the applications in the [list](https://github.com/Foggalong/hardcode-fixer/blob/master/tofix.csv). If hardcode-fixer doesn't support your favorite app yet, please open an issue [here](https://github.com/Foggalong/hardcode-fixer/issues) or edit your .desktop file manually.
 
 ### Hardcoded tray icons
 
-To fix hardcoded tray icons Papirus supports [Hardcode-Tray](https://github.com/bil-elmoussaoui/Hardcode-Tray) script. A list of supported applications is available [here](https://github.com/bil-elmoussaoui/Hardcode-Tray/tree/master/data/database).
+To fix hardcoded tray icons Papyarus supports [Hardcode-Tray](https://github.com/bil-elmoussaoui/Hardcode-Tray) script. A list of supported applications is available [here](https://github.com/bil-elmoussaoui/Hardcode-Tray/tree/master/data/database).
 
 > [!IMPORTANT]
-> To get Papirus to work right with Hardcode-Tray, use the hardcode-tray option `--conversion-tool RSVGConvert`:
+> To get Papyarus to work right with Hardcode-Tray, use the hardcode-tray option `--conversion-tool RSVGConvert`:
 
 ```
-sudo -E hardcode-tray --conversion-tool RSVGConvert --size 22 --theme Papirus
+sudo -E hardcode-tray --conversion-tool RSVGConvert --size 22 --theme Papyarus
 ```
 
 **Size recommendations:**
 
 - Unity: 22px
 - KDE: 22px
-- GNOME: 22px ([see](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#manual-fixes) for more info)
-- XFCE: 22px ([see](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#manual-fixes) for more info)
+- GNOME: 22px ([see](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme#manual-fixes) for more info)
+- XFCE: 22px ([see](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme#manual-fixes) for more info)
 - Pantheon: 24px
 - Cinnamon: 16px
 - LXQt: 16px
@@ -193,18 +207,18 @@ To fix icons of running Steam games, you can use the [Steam Icons Fixer](https:/
 ## KDE colorscheme
 
 > [!NOTE]
-> This is probably depreciated with Plasma 6. Choose Papirus variant according to your color scheme because some symbolic icons are not recolorable.
+> This is probably depreciated with Plasma 6. Choose Papyarus variant according to your color scheme because some symbolic icons are not recolorable.
 
 Support for monochrome icons for KDE colorscheme is now available:
-- Papirus - for dark Plasma theme (light panel icons) & light color scheme (dark action icons)
-- Papirus Dark - for dark plasma theme & color scheme (all icons are light)
-- Papirus Light - for light plasma theme & color scheme (all icons are dark)
+- Papyarus - for dark Plasma theme (light panel icons) & light color scheme (dark action icons)
+- Papyarus Dark - for dark plasma theme & color scheme (all icons are light)
+- Papyarus Light - for light plasma theme & color scheme (all icons are dark)
 
 ![kde-color-scheme](https://i.imgur.com/oM1qhQH.png)
 
 ## Folder color
 
-Papirus has [Folder Color](https://github.com/costales/folder-color/) v0.0.80+ support that allows you to change a color of a folder.
+Papyarus has [Folder Color](https://github.com/costales/folder-color/) v0.0.80+ support that allows you to change a color of a folder.
 
 Available colors:
 
@@ -212,33 +226,33 @@ Available colors:
 
 For KDE, colors of individual folders can be changed using [dolphin-folder-color](https://github.com/audoban/dolphin-folder-color).
 
-Also, you can use our [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) script to change the color of folders system-wide.
+Also, you can use our [papirus-folders](https://github.com/PapyarusDevelopmentTeam/papirus-folders) script to change the color of folders system-wide.
 
 ## Extras
 
-- [Papirus themes for FileZilla](https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes)
-- [Papirus theme for SMPlayer](https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme)
-- [Papirus themes for Claws Mail](https://github.com/PapirusDevelopmentTeam/papirus-claws-mail-theme)
-- [Papirus themes for Thunderbird](https://github.com/PapirusDevelopmentTeam/thunderbird-theme-papirus)
-- [Papirus theme for aMule](https://github.com/PapirusDevelopmentTeam/papirus-amule-theme)
+- [Papyarus themes for FileZilla](https://github.com/PapyarusDevelopmentTeam/papirus-filezilla-themes)
+- [Papyarus theme for SMPlayer](https://github.com/PapyarusDevelopmentTeam/papirus-smplayer-theme)
+- [Papyarus themes for Claws Mail](https://github.com/PapyarusDevelopmentTeam/papirus-claws-mail-theme)
+- [Papyarus themes for Thunderbird](https://github.com/PapyarusDevelopmentTeam/thunderbird-theme-papirus)
+- [Papyarus theme for aMule](https://github.com/PapyarusDevelopmentTeam/papirus-amule-theme)
 
 ## Recommendations
 
-- Papirus users are expected to have Breeze installed if they use Plasma and/or any KDE applications
+- Papyarus users are expected to have Breeze installed if they use Plasma and/or any KDE applications
 
-- We recommend the following GTK themes to use with Papirus icons:
+- We recommend the following GTK themes to use with Papyarus icons:
   - [Arc theme](https://github.com/jnsh/arc-theme)
   - [Materia theme](https://github.com/nana-4/materia-theme)
 - For KDE Plasma 5, our recommendations are:
-  - [Arc KDE](https://github.com/PapirusDevelopmentTeam/arc-kde)
-  - [Materia KDE](https://github.com/PapirusDevelopmentTeam/materia-kde)
+  - [Arc KDE](https://github.com/PapyarusDevelopmentTeam/arc-kde)
+  - [Materia KDE](https://github.com/PapyarusDevelopmentTeam/materia-kde)
 
 ## Manual fixes
 
 <details>
 <summary>For Pop!_OS users</summary>
 
-For Pop!_OS users who want to use the [Pop!_Shop](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/blob/master/Papirus/64x64/apps/pop-shop.svg) icon (instead of the default [Elementary Appcentre](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/blob/master/Papirus/64x64/apps/io.elementary.appcenter.svg) icon):
+For Pop!_OS users who want to use the [Pop!_Shop](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/blob/master/Papyarus/64x64/apps/pop-shop.svg) icon (instead of the default [Elementary Appcentre](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/blob/master/Papyarus/64x64/apps/io.elementary.appcenter.svg) icon):
 
 ```
 mkdir -p ~/.local/share/applications/
@@ -250,7 +264,7 @@ desktop-file-edit --set-icon=pop-shop ~/.local/share/applications/io.elementary.
 <details>
 <summary>For Cinnamon users</summary>
 
-For Cinnamon users who want to use Papirus icon theme with [Arc theme](https://github.com/jnsh/arc-theme) we recommend fixing the color icons on panel:
+For Cinnamon users who want to use Papyarus icon theme with [Arc theme](https://github.com/jnsh/arc-theme) we recommend fixing the color icons on panel:
 
 ```
 sudo sed -i.orig 's/white/#d3dae3/g' /usr/share/themes/Arc-Dark/cinnamon/cinnamon.css
@@ -350,7 +364,7 @@ Requirements:
 - **Webpage (optional):** https://github.com/Forkgram/tdesktop
 - **Original Icon:**
 
-![telegram](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/assets/63223659/f038b2e3-0d8d-4ec3-b986-128b7320d270)
+![telegram](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/assets/63223659/f038b2e3-0d8d-4ec3-b986-128b7320d270)
 </details>
 
 > [!WARNING]
@@ -369,7 +383,7 @@ We welcome user contributions. If you don't know where to start, we've compiled 
 
 Inside [tools/work](tools/work) you will find:
 
-- extensive [design notes](tools/work/DESIGN.md) for the Papirus icon theme
+- extensive [design notes](tools/work/DESIGN.md) for the Papyarus icon theme
 - a working environment
 - template files you can adapt for new icons
 - scripts and tools for automating the entire design workflow:
@@ -385,7 +399,7 @@ We are waiting for your pull requests and would love to see this icon theme beco
 ### How to design icons
 
 - [detailed icon design notes](tools/work/DESIGN.md)
-- [our wiki](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/wiki), which dives deeper into various topics
+- [our wiki](https://github.com/PapyarusDevelopmentTeam/papirus-icon-theme/wiki), which dives deeper into various topics
 
 ## Donate
 
@@ -395,7 +409,7 @@ If you would like to support the development by making a one-time donation or by
 
 ## License
 
-Papirus icon theme is a free and open source project distributed under the terms of the GNU General Public License, version 3. See the [`LICENSE`](LICENSE) file for details.
+Papyarus icon theme is a free and open source project distributed under the terms of the GNU General Public License, version 3. See the [`LICENSE`](LICENSE) file for details.
 
 Every logo in this icon theme is owned by the respective trademark holder. We have not received approval to create these logos from any of the trademark owners, and the existence of an icon in this repository is in no way supported by the trademark owner.
 

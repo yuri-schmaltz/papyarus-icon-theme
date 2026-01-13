@@ -51,7 +51,7 @@ case "$1" in
 		;;
 esac
 
-find "$SOURCE_DIR/Papirus" -type f -regextype posix-extended \
+find "$SOURCE_DIR/Papyarus" -type f -regextype posix-extended \
 	-iregex ".*/$CONTEXT_DIR/.*${2:?PATTERN not set!}.*" | \
 	while read -r file; do
 

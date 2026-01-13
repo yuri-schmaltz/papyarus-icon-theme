@@ -1,0 +1,17 @@
+# Credits
+
+Papyarus Icon Theme is a derivative work based on:
+
+## Papirus Icon Theme
+- **Authors**: Alexey Varfolomeev, Sergei Eremenko and others.
+- **License**: GPL-3.0
+- **Source**: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+
+## Yaru (Folder Icons)
+- **Authors**: Canonical Ltd. and the Ubuntu Community.
+- **License**: GPL-3.0 or CC-BY-SA-4.0
+- **Source**: https://github.com/ubuntu/yaru
+
+## Papyarus Evolution
+- Audited and evolved to merge Papirus app icons with Yaru-styled folder icons.
+- Standardized technical assets and naming for maximum compatibility.

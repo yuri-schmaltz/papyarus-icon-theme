@@ -5,7 +5,7 @@
 set -eo pipefail
 
 readonly SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
-readonly TARGET_DIR="$SCRIPT_DIR/Papirus"
+readonly TARGET_DIR="$SCRIPT_DIR/Papyarus"
 
 usage() {
 	cat <<-EOF

@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #
-# This script copies needed icons from Papirus to derived themes
+# This script copies needed icons from Papyarus to derived themes
 # and changes their color schemes
 
 set -eo pipefail
 
 readonly SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
-readonly SOURCE_DIR="$SCRIPT_DIR/Papirus"
+readonly SOURCE_DIR="$SCRIPT_DIR/Papyarus"
 readonly THEMES_DIR="$SCRIPT_DIR/../.."
 
 mapfile -t THEMES < <(
@@ -17,7 +17,7 @@ for theme in "${THEMES[@]##*/}"; do
 	theme_dir="$SCRIPT_DIR/$theme"
 
 	case "$theme" in
-		Papirus-Dark)
+		Papyarus-Dark)
 			# copy files and symlinks
 			find "$SOURCE_DIR" -maxdepth 1 -type d | while read -r dir; do
 				context_dir=$(basename "$dir")
@@ -52,7 +52,7 @@ for theme in "${THEMES[@]##*/}"; do
 			find "$theme_dir" -type f -name '*.svg' -exec sed -i \
 				-e 's/#444444/#dfdfdf/gI' '{}' \;
 			;;
-		Papirus-Light)
+		Papyarus-Light)
 			# copy files and symlinks
 			find "$SOURCE_DIR" -maxdepth 1 -type d | while read -r dir; do
 				context_dir=$(basename "$dir")
