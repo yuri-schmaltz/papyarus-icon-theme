@@ -74,6 +74,26 @@ COLORS=(
 	[yellow]="    #f9bd30 #e19d00 #594411 #e4e4e4"
 	[nordic]="    #81a1c1 #5e81ac #3b4253 #eceff4"
 
+
+	# Yaru Colors
+	[yaru-amber]="    #eea834 #8c5e11 #e4e4e4 #e4e4e4"
+	[yaru-aqua]="     #41c6c8 #326868 #e4e4e4 #e4e4e4"
+	[yaru-aubergine]="#77216F #5e2750 #e4e4e4 #e4e4e4"
+	[yaru-blue]="     #208fe9 #255074 #e4e4e4 #e4e4e4"
+	[yaru-brown]="    #995640 #5e2c12 #e4e4e4 #e4e4e4"
+	[yaru-cinnamon]=" #dd682a #462e1b #e4e4e4 #e4e4e4"
+	[yaru-deepblue]=" #25469d #1a318b #e4e4e4 #e4e4e4"
+	[yaru-green]="    #3eb34f #123d18 #e4e4e4 #e4e4e4"
+	[yaru-grey]="     #9c9c9c #4d4d4d #e4e4e4 #e4e4e4"
+	[yaru-lavender]=" #6a39cb #3c1d79 #e4e4e4 #e4e4e4"
+	[yaru-mate]="     #78ab50 #4f6326 #e4e4e4 #e4e4e4"
+	[yaru-orange]="   #e95420 #a6401c #e4e4e4 #e4e4e4"
+	[yaru-pink]="     #e920a3 #742558 #e4e4e4 #e4e4e4"
+	[yaru-purple]="   #924d8b #5e2750 #e4e4e4 #e4e4e4"
+	[yaru-red]="      #e92020 #742525 #e4e4e4 #e4e4e4"
+	[yaru-teal]="     #16a085 #094a3d #e4e4e4 #e4e4e4"
+	[yaru-yellow]="   #e9ba20 #746225 #e4e4e4 #e4e4e4"
+
  	[chameleon]="currentColor fadedColor currentColor #e4e4e4"
 )
 
